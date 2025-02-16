@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-
-import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
 import { cn } from "../utils/lib";
 
@@ -26,13 +24,24 @@ export const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Hassan Alaa</span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-              AI engnieer
+            AI engineer
           </p>
         </div>
       </div>
 
-      {/* Computer Model */}
-      <ComputersCanvas />
+      {/* Profile Image with Animation */}
+      <motion.div
+        initial={{ x: 300, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+        className="absolute top-[80px] right-5 w-[600px] h-[600px]"
+      >
+        <img
+          src="/profile.jpg"
+          alt="Hassan Alaa"
+          className="w-full h-full object-contain"
+        />
+      </motion.div>
 
       {/* Scroll to about section */}
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
