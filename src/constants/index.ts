@@ -81,11 +81,11 @@ export const SERVICES = [
 // Technologies
 export const TECHNOLOGIES = [
   {
-    name: "HTML 5",
+    name: "Data Base",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "Pyhon",
     icon: css,
   },
   {
@@ -93,31 +93,31 @@ export const TECHNOLOGIES = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Colap",
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "Flask",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "tenserflow",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: "pytorch",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Pandas",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: "Office365",
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "matplotlib",
     icon: threejs,
   },
   {
@@ -125,7 +125,7 @@ export const TECHNOLOGIES = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "Power PI",
     icon: figma,
   },
   {
@@ -137,55 +137,57 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "AI & Data Science (IBM)",
+    company_name: "Digital Egypt Pioneers Initiative - DEPI · Internship",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#FFFFFF",
+    date: " October 2024 - july 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Intensive training in Data Science and Machine Learning using Python and MLOps.",
+      "Focuses on data analysis, developing intelligent models, and deploying them in real-world environments.",
+      "Includes hands-on projects that simulate real-world challenges and enhance data-driven decision-making.",
+      "Covers advanced topics such as computer vision and natural language processing.",
+      "Provides strong practical experience, preparing for careers in AI and Data Science.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Machine Learning Engineer",
+    company_name: "National Telecommunication Institute (NTI) · Internship",
     icon: tesla,
-    iconBg: "#E6DEDD",
+    iconBg: "#FFFFFF",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "An intensive 120-hour program focused on Artificial Intelligence and Machine Learning using cutting-edge technologies",
+      "Covers big data analysis, building intelligent models, and deploying them in production environments.",
+      "Includes advanced applications in computer vision, natural language processing, and AI automation.",
+      "Features hands-on training with Python and powerful frameworks like TensorFlow.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "IT Manager ",
+    company_name: "YLY - Ministry Of Youth And Sports(Beni-suef)",
     icon: shopify,
-    iconBg: "#383E56",
+    iconBg: "#f3f3f3",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the IT operations for YLY, ensuring seamless technical support and system management.",
+      "Managed and optimized digital platforms, databases, and internal communication tools.",
+      "Developed automated solutions to enhance workflow efficiency and data handling.",
+      "Provided technical guidance and support to team members, ensuring smooth execution of IT-related tasks.",
+      "Played a key role in digital transformation initiatives, improving overall organizational productivity.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "AI Engineer - IEEE Beni-Suef",
+    company_name: "- IEEE Beni-Suef",
     icon: meta,
-    iconBg: "#E6DEDD",
+    iconBg: "#0b004c",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I specialize in developing AI-driven solutions using machine learning and deep learning techniques.",
+      "My work involves data analysis, model development, and deploying intelligent systems for real-world applications.",
+      "I collaborate with teams to integrate computer vision and natural language processing into innovative projects.",
+      "Passionate about advancing AI research and sharing knowledge through workshops and technical sessions.",
     ],
   },
 ] as const;
@@ -194,26 +196,27 @@ export const EXPERIENCES = [
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Hassan’s AI solutions transformed our data into powerful insights, helping us make smarter decisions faster.",
+    name: "Baraa Abu Sallout ",
+    designation: "AI Engineer",
+    company: "AMIT",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Thanks to Hassan’s AI automation, we reduced operational costs by 40% and improved efficiency across all departments!",
+    name: "Mustafa M. AL-Sayed",
+    designation: "DR",
+    company: "Nahda Universty",
     image: user2,
   },
+  
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "I thought implementing AI in our business would be complex and costly, but Hassan made it seamless and efficient.",
+    name: "Hossam EL-Dein",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "mmm",
     image: user3,
   },
 ] as const;
@@ -355,20 +358,20 @@ export const PROJECTS = [
 ] as const;
 
 export const SOCIALS = [
-  {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
-  },
+  // {
+  //   name: "YouTube",
+  //   icon: youtube,
+  //   link: "https://www.youtube.com/@OPGAMER.",
+  // },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/hsn-alaa/",
   },
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://x.com/hsnla33136884",
   },
   {
     name: "GitHub",

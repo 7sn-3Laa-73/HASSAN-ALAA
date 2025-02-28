@@ -46,7 +46,7 @@ export const About = () => {
         {/* Title */}
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Introduction</p>
-          <h2 className={styles.sectionHeadText}>About Me.</h2>
+          <h2 className={styles.sectionHeadText}>About Me</h2>
         </motion.div>
 
         {/* Body */}
@@ -54,9 +54,10 @@ export const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I am Hassan Alaa, a Data Scientist specializing in data analysis, machine learning model development, and big data processing. I have extensive experience in Python, statistical data analysis, deep learning, and MLOps techniques.
-I utilize tools such as Pandas, NumPy, Scikit-learn, TensorFlow, and Power BI to extract valuable insights from data and transform them into actionable decisions.
-I am always driven to solve real-world problems using data, whether by building accurate predictive models or developing interactive analytical dashboards.
+          Hi, I'm Hassan Alaa ,
+I'm a Data Scientist specializing in data analysis, machine learning model development, and big data processing. I excel at integrating AI solutions into practical applications using innovative techniques, with a strong commitment to meeting deadlines and delivering high-quality results.
+I have extensive experience with Python, machine learning, deep learning, and MLOps, and I'm proficient in tools like Pandas, NumPy, Scikit-learn, TensorFlow, and Power BI to extract valuable insights that support data-driven decision-making.
+I believe that data isn't just numbers; it's the key to understanding patterns, uncovering opportunities, and solving real-world problems.
 Let's unlock the power of data together! 🚀
         </motion.p>
 

@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[75%] h-[75%] object-contain"
         />
       </div>
     }
@@ -65,7 +65,7 @@ export const Experience = () => {
         {/* Title */}
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What I have done so far</p>
-          <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+          <h2 className={styles.sectionHeadText}>Work Experience</h2>
         </motion.div>
 
         {/* Experience Card */}

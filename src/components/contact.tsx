@@ -117,7 +117,7 @@ export const Contact = () => {
           className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
         >
           <p className={styles.sectionSubText}>Get in touch</p>
-          <h3 className={styles.sectionHeadText}>Contact.</h3>
+          <h3 className={styles.sectionHeadText}>Contact</h3>
 
           <form
             ref={formRef}
@@ -191,8 +191,7 @@ export const Contact = () => {
         >
           <img src="src\logo.png" alt="Logo" className="w-85 h-85 mb-6 rounded-xl shadow-lg" />
           <p className="text-center text-white text-lg font-semibold">
-            "Don't hesitate to reach out! Let's build something amazing together."
-          </p>
+          "Data holds the power to transform everything, and I’m here to turn that power into tangible results that align with your vision. Let’s work together and make a difference!"          </p>
         </motion.div>
       </div>
     </SectionWrapper>

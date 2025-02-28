@@ -4,7 +4,7 @@ const SocialSidebar = () => {
   return (
     <div className="fixed left-0 top-1/3 z-50 flex flex-col space-y-4 bg-black bg-opacity-50 p-3 rounded-r-lg shadow-lg">
       <a
-        href="https://linkedin.com/in/your-profile"
+        href="https://www.linkedin.com/in/hsn-alaa/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-600 transition"
@@ -12,7 +12,7 @@ const SocialSidebar = () => {
         <FaLinkedin size={24} />
       </a>
       <a
-        href="https://wa.me/your-number"
+        href="https://wa.me/qr/LXXMSV4C7CPZO1"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-green-500 transition"
@@ -20,7 +20,7 @@ const SocialSidebar = () => {
         <FaWhatsapp size={24} />
       </a>
       <a
-        href="https://github.com/your-username"
+        href="https://github.com/Hassan-Alaa-73"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-gray-400 transition"
@@ -28,9 +28,11 @@ const SocialSidebar = () => {
         <FaGithub size={24} />
       </a>
       <a
-        href="mailto:your-email@example.com"
-        className="text-white hover:text-red-500 transition"
-      >
+  href="mailto:hassan.alaa.hafez73@gmail.com?subject=Hello%20Hassan"
+  className="text-white hover:text-red-500 transition"
+>
+
+
         <FaEnvelope size={24} />
       </a>
     </div>
